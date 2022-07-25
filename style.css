@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap');
+
+:root{
+    --darkest-green:#2C3333;
+    --dark-green:#395B64;
+    --light-green:#a7d3d5;
+    --paleLight-green:#E7F6F2;
+    --dark-skin:#f1944c;
+    --pale-cement:#e0f5df;
+}
+
+* {
+    font-family: 'Cinzel', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#welcome-body{
+    background-color: var(--dark-green);
+    color:var(--light-green)
+}
+
+#palindrome-text-left {
+    font-weight: 500;
+    font-size: large;
+    text-align: left;
+    text-decoration: none;
+    margin: 0.5rem 0rem 3rem 0.1rem;
+    padding: 0.5rem;
+    color: var(--paleLight-green);
+    border-bottom: 1px solid var(--light-green);
+}
+
+#palindrome-heading1{
+    
+    text-align: center;
+    margin-top: 18%;
+    color:white;
+    
+}
+
+#heading-description{
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: medium;
+    color: var(--paleLight-green);
+}
+
+.get-started-button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem 8rem;
+    padding: 2rem;
+    background-color: var(--light-green);
+    color: var(--darkest-green);
+    border: 1px solid ;
+    border-radius: 5rem;
+
+}
+.get-started-button:hover{
+    background-color: var(--paleLight-green);
+    color:var(--darkest-green);
+}
+
+/* #palindrome-body{
+    background-color: #7F8487;
+} */
+
+#palindrome-heading2{
+    text-align: center;
+    color: var(--darkest-green);
+    text-decoration:underline;
+    font-weight: 100;
+}
+#heading2-description{
+    text-align: center;
+    color: var(--dark-skin);
+    margin: 2rem 5rem;
+}
+
+.heading2-logic{
+    text-align: center;
+    color: var(--dark-green);
+    margin: 0% 10%;
+}
+
+
+#input-date{
+    display:block;
+    margin: auto;
+    font-size: large;
+    margin-top: 3rem;
+    border: 1px solid var(--dark-skin);
+}
+
+#submit-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: medium;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    background-color: white;
+    border: 2px solid var(--dark-skin);
+    color: var(--darkest-green);
+    font-weight: 600;
+}
+
+#submit-btn:hover{
+    color:green;
+    border: 2px solid var(--dark-green);
+}
+#output-txt:empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#output-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 10rem;
+    color: var(--darkest-green);
+    font-size: medium;
+    font-weight: 600;
+}
